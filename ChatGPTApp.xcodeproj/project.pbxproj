@@ -17,7 +17,7 @@
 		12920B1B2B1E49DE00AF535E /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12920B1A2B1E49DE00AF535E /* ChatViewModel.swift */; };
 		12920B1D2B1E4A8400AF535E /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12920B1C2B1E4A8400AF535E /* OpenAIService.swift */; };
 		12920B202B1E4BC300AF535E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 12920B1F2B1E4BC300AF535E /* Alamofire */; };
-		12920B222B1E4EDF00AF535E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12920B212B1E4EDF00AF535E /* Constants.swift */; };
+		12920B242B1E517000AF535E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12920B232B1E517000AF535E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		12920B0D2B1E3F5D00AF535E /* ChatGPTAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		12920B1A2B1E49DE00AF535E /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		12920B1C2B1E4A8400AF535E /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
-		12920B212B1E4EDF00AF535E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12920B232B1E517000AF535E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				12920AF22B1E3F5A00AF535E /* ChatView.swift */,
 				12920B1A2B1E49DE00AF535E /* ChatViewModel.swift */,
 				12920B1C2B1E4A8400AF535E /* OpenAIService.swift */,
-				12920B212B1E4EDF00AF535E /* Constants.swift */,
+				12920B232B1E517000AF535E /* Constants.swift */,
 				12920AF42B1E3F5D00AF535E /* Assets.xcassets */,
 				12920AF62B1E3F5D00AF535E /* Preview Content */,
 			);
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12920B222B1E4EDF00AF535E /* Constants.swift in Sources */,
+				12920B242B1E517000AF535E /* Constants.swift in Sources */,
 				12920AF32B1E3F5A00AF535E /* ChatView.swift in Sources */,
 				12920B1B2B1E49DE00AF535E /* ChatViewModel.swift in Sources */,
 				12920AF12B1E3F5A00AF535E /* ChatGPTAppApp.swift in Sources */,
