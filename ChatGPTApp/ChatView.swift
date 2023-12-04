@@ -33,6 +33,9 @@ struct ChatView: View {
         HStack {
             if message.role == .user { Spacer() }
             Text(message.content)
+                .padding()
+                .background(message.role == .user ? Color.blue: Color.gray.opacity(0.2))
+                .foregroundStyle(message.role == .user ? Color.white: Color.black)
             if message.role == .assistant { Spacer() }
         }
     }
